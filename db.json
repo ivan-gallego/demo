@@ -1,14 +1,328 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "graphs": {
+    "nodes": [
+        {
+            "ASIN": "B00004Y7S5",
+            "Amazon_price": -1,
+            "idFilm": 0,
+            "Top_reviewer_rating": 5,
+            "Avg_Rating": 4.38181818182,
+            "Helpful_votes_ratio": 0.568279240661,
+            "Avg_Votes": 9.89696969697,
+            "Number_of_reviews": 165,
+            "Avg_Helpful": 5.62424242424,
+            "Sales_Rank": 10670,
+            "Titulo": "Fantasia Anthology",
+            "Rating_of_most_helpful_rating": 1,
+            "Product_group": 2,
+            "id": 496
+        },
+        {
+            "ASIN": "6305940959",
+            "Amazon_price": -1,
+            "idFilm": 1,
+            "Top_reviewer_rating": -1,
+            "Avg_Rating": 2.91366906475,
+            "Helpful_votes_ratio": 0.638525564804,
+            "Avg_Votes": 6.05035971223,
+            "Number_of_reviews": 139,
+            "Avg_Helpful": 3.86330935252,
+            "Sales_Rank": 2431,
+            "Titulo": "La Sirenita 2: regreso al mar",
+            "Rating_of_most_helpful_rating": 4,
+            "Product_group": 2,
+            "id": 497
+        },
+        {
+            "ASIN": "B00004R993",
+            "Amazon_price": 34.98,
+            "idFilm": 10,
+            "Top_reviewer_rating": 5,
+            "Avg_Rating": 4.32954545455,
+            "Helpful_votes_ratio": 0.562326869806,
+            "Avg_Votes": 4.10227272727,
+            "Number_of_reviews": 88,
+            "Avg_Helpful": 2.30681818182,
+            "Sales_Rank": 2304,
+            "Titulo": "Tod y Toby",
+            "Rating_of_most_helpful_rating": 1,
+            "Product_group": 2,
+            "id": 498
+        },
+        {
+            "ASIN": "B00001QEE9",
+            "Amazon_price": 62.95,
+            "idFilm": 100,
+            "Top_reviewer_rating": 5,
+            "Avg_Rating": 4.24786324786,
+            "Helpful_votes_ratio": 0.590839694656,
+            "Avg_Votes": 5.59829059829,
+            "Number_of_reviews": 117,
+            "Avg_Helpful": 3.30769230769,
+            "Sales_Rank": 2248,
+            "Titulo": "Pinocho",
+            "Rating_of_most_helpful_rating": 5,
+            "Product_group": 2,
+            "id": 499
+        },
+        {
+            "ASIN": "B00001QEE6",
+            "Amazon_price": 59.95,
+            "idFilm": 101,
+            "Top_reviewer_rating": 4,
+            "Avg_Rating": 4.45588235294,
+            "Helpful_votes_ratio": 0.536178107607,
+            "Avg_Votes": 7.92647058824,
+            "Number_of_reviews": 68,
+            "Avg_Helpful": 4.25,
+            "Sales_Rank": 904,
+            "Titulo": "La Dama y el Vagabundo",
+            "Rating_of_most_helpful_rating": 2,
+            "Product_group": 2,
+            "id": 500
+        },
+        {
+            "ASIN": "B00001QEE7",
+            "Amazon_price": -1,
+            "idFilm": 102,
+            "Top_reviewer_rating": 5,
+            "Avg_Rating": 4.65,
+            "Helpful_votes_ratio": 0.789385004212,
+            "Avg_Votes": 7.41875,
+            "Number_of_reviews": 160,
+            "Avg_Helpful": 5.85625,
+            "Sales_Rank": 49,
+            "Titulo": "La Sirenita",
+            "Rating_of_most_helpful_rating": 5,
+            "Product_group": 2,
+            "id": 501
+        },
+        {
+            "ASIN": "6305950547",
+            "Amazon_price": 14.99,
+            "idFilm": 103,
+            "Top_reviewer_rating": -1,
+            "Avg_Rating": 4.15384615385,
+            "Helpful_votes_ratio": 0.521739130435,
+            "Avg_Votes": 8.84615384615,
+            "Number_of_reviews": 26,
+            "Avg_Helpful": 4.61538461538,
+            "Sales_Rank": 11907,
+            "Titulo": "Mickey descubre la Navidad (Ed. Gold)",
+            "Rating_of_most_helpful_rating": 5,
+            "Product_group": 2,
+            "id": 502
+        },
+        {
+            "ASIN": "B00001QEE4",
+            "Amazon_price": 59.99,
+            "idFilm": 104,
+            "Top_reviewer_rating": 5,
+            "Avg_Rating": 3.87906976744,
+            "Helpful_votes_ratio": 0.56043956044,
+            "Avg_Votes": 2.11627906977,
+            "Number_of_reviews": 215,
+            "Avg_Helpful": 1.18604651163,
+            "Sales_Rank": 25531,
+            "Titulo": "El Rey León 2: el tesoro de Simba",
+            "Rating_of_most_helpful_rating": 5,
+            "Product_group": 2,
+            "id": 503
+        },
+        {
+            "ASIN": "B00001QEE5",
+            "Amazon_price": -1,
+            "idFilm": 105,
+            "Top_reviewer_rating": 5,
+            "Avg_Rating": 4.17431192661,
+            "Helpful_votes_ratio": 0.487039563438,
+            "Avg_Votes": 6.7247706422,
+            "Number_of_reviews": 109,
+            "Avg_Helpful": 3.2752293578,
+            "Sales_Rank": 2457,
+            "Titulo": "Peter Pan",
+            "Rating_of_most_helpful_rating": 5,
+            "Product_group": 2,
+            "id": 504
+        },
+        {
+            "ASIN": "B000059TCE",
+            "Amazon_price": -1,
+            "idFilm": 106,
+            "Top_reviewer_rating": -1,
+            "Avg_Rating": 4.2,
+            "Helpful_votes_ratio": 0.516129032258,
+            "Avg_Votes": 6.2,
+            "Number_of_reviews": 5,
+            "Avg_Helpful": 3.2,
+            "Sales_Rank": 25542,
+            "Titulo": "Pack 101 dálmatas + 102 dálmatas",
+            "Rating_of_most_helpful_rating": 4,
+            "Product_group": 2,
+            "id": 505
+        }
+    ],
+    "links": [
+        {
+            "source": 496,
+            "target": 598,
+            "aux": 1
+        },
+        {
+            "source": 496,
+            "target": 524,
+            "aux": 1
+        },
+        {
+            "source": 496,
+            "target": 600,
+            "aux": 1
+        },
+        {
+            "source": 496,
+            "target": 588,
+            "aux": 1
+        },
+        {
+            "source": 497,
+            "target": 500,
+            "aux": 1
+        },
+        {
+            "source": 497,
+            "target": 600,
+            "aux": 1
+        },
+        {
+            "source": 497,
+            "target": 592,
+            "aux": 1
+        },
+        {
+            "source": 497,
+            "target": 611,
+            "aux": 1
+        },
+        {
+            "source": 497,
+            "target": 501,
+            "aux": 1
+        },
+        {
+            "source": 498,
+            "target": 586,
+            "aux": 1
+        },
+        {
+            "source": 498,
+            "target": 524,
+            "aux": 1
+        },
+        {
+            "source": 498,
+            "target": 512,
+            "aux": 1
+        },
+        {
+            "source": 498,
+            "target": 578,
+            "aux": 1
+        },
+        {
+            "source": 499,
+            "target": 600,
+            "aux": 1
+        },
+        {
+            "source": 499,
+            "target": 501,
+            "aux": 1
+        },
+        {
+            "source": 500,
+            "target": 508,
+            "aux": 1
+        },
+        {
+            "source": 500,
+            "target": 600,
+            "aux": 1
+        },
+        {
+            "source": 500,
+            "target": 499,
+            "aux": 1
+        },
+        {
+            "source": 500,
+            "target": 618,
+            "aux": 1
+        },
+        {
+            "source": 500,
+            "target": 501,
+            "aux": 1
+        },
+        {
+            "source": 502,
+            "target": 526,
+            "aux": 1
+        },
+        {
+            "source": 503,
+            "target": 511,
+            "aux": 1
+        },
+        {
+            "source": 504,
+            "target": 618,
+            "aux": 1
+        },
+        {
+            "source": 504,
+            "target": 501,
+            "aux": 1
+        },
+        {
+            "source": 504,
+            "target": 499,
+            "aux": 1
+        },
+        {
+            "source": 504,
+            "target": 600,
+            "aux": 1
+        },
+        {
+            "source": 504,
+            "target": 500,
+            "aux": 1
+        },
+        {
+            "source": 505,
+            "target": 508,
+            "aux": 1
+        },
+        {
+            "source": 505,
+            "target": 500,
+            "aux": 1
+        },
+        {
+            "source": 505,
+            "target": 524,
+            "aux": 1
+        },
+        {
+            "source": 505,
+            "target": 618,
+            "aux": 1
+        },
+        {
+            "source": 505,
+            "target": 501,
+            "aux": 1
+        }
+    ]
+}
 }
